@@ -10,8 +10,9 @@ public class MainPage
 {
 	private Stage stage = new Stage();
 	private Group root = new Group();
-	private Scene scene = new Scene(root);
+	private Scene scene = new Scene(root, 1200	, 900);
 	FenMainPage fen = new FenMainPage();
+	
 	public MainPage()
 	{
 		
