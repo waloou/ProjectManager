@@ -1,8 +1,8 @@
-package fr.walou.ProjectManager.Model;
+		package fr.walou.ProjectManager.Model;
 
 public class Utilisateur 
 {
-	private int	idPersonne;
+	private int	idUtilisateur;
 	private String	nom;
 	private String	prenom;
 	private String	mail;
@@ -10,9 +10,11 @@ public class Utilisateur
 	private String	pseudo;
 	private String	pwd;
 	
-	public Utilisateur(int idPersonne, String nom, String prenom, String mail, String region, String pseudo, String pwd) 
+
+	public Utilisateur(int idUtilisateur, String nom, String prenom, String mail, String region, String pseudo,
+			String pwd) 
 	{
-		this.idPersonne = idPersonne;
+		this.idUtilisateur = idUtilisateur;
 		this.nom = nom;
 		this.prenom = prenom;
 		this.mail = mail;
@@ -20,14 +22,16 @@ public class Utilisateur
 		this.pseudo = pseudo;
 		this.pwd = pwd;
 	}
-
-	public int getIdPersonne() {
-		return idPersonne;
+	
+	public int getIdUtilisateur() {
+		return idUtilisateur;
 	}
 
-	public void setIdPersonne(int idPersonne) {
-		this.idPersonne = idPersonne;
+	public void setIdUtilisateur(int idUtilisateur) {
+		this.idUtilisateur = idUtilisateur;
 	}
+
+
 
 	public String getNom() {
 		return nom;

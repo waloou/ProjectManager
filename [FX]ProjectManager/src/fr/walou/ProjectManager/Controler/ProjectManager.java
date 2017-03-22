@@ -9,10 +9,8 @@ public class ProjectManager extends Application
 	@Override
 	public void start(Stage primaryStage) 
 	{
-		//FAIRE LE TREE SUR LES PROJECT DANS LA BASE DE DONNE
-		
 		Login login = new Login();
-	}
+a	}
 	
 	public static void main(String[] args) 
 	{
