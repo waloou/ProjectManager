@@ -10,7 +10,7 @@ public class ProjectManager extends Application
 	public void start(Stage primaryStage) 
 	{
 		Login login = new Login();
-a	}
+	}
 	
 	public static void main(String[] args) 
 	{
